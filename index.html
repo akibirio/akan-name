@@ -19,7 +19,58 @@
                 </p>
             </div>
             <div class="row">
-                
+                <div class="form col-md-4">
+                    <form action="" id="contact-form" class="row g-3 frame">
+                        <label class="labels" for="Day">Day</label>
+                        <input class="input"
+                          type="text"
+                          name="day"
+                          id="day"
+                          placeholder="DD eg. 01"
+                          maxlength="2"
+                          min="01"
+                          required
+                        />
+
+                        <label class="labels" for="month">Month</label>
+                        <input
+                        class="input"
+                        type="text"
+                        name="month"
+                        id="month"
+                        placeholder="MM eg. 08"
+                        maxlength="2"
+                        max="12"
+                        min="1"
+                        required
+                        />
+                        <label class="labels" for="year">Year</label>
+                        <input
+                        class="input"
+                        type="text"
+                        name="year"
+                        id="year"
+                        placeholder="CCYY eg. 1980"
+                        maxlength="4"
+                        required
+                        />
+                        <div class="gender-select">
+                            <label for="gender">Gender</label>
+                          <input
+                            type="radio"
+                            name="gender"
+                            class="gender"
+                            value="male"
+                          />
+                          Male
+                          <input type="radio" name="gender" class="gender" value="female"/>
+                          Female
+                          <a href="#details"><button type="button" class="button btn-grad"
+                            onclick="JavaScript:akanName()">Submit</button></a> <button class="btn-grad" type="reset" style="width: auto; margin: auto; background-color: brown; color: white;">Clear</button>
+                        </div>
+                      </form>
+                </div>
+
             </div>
         </div>
     </body>
