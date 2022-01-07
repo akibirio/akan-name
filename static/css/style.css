@@ -18,7 +18,7 @@
   
   .container {
     color: ivory;
-    background-image: url(/images/akan.png);
+    background-image: url(../../images/akan.png);
     background-color: rgba(0, 0, 0, 0.452);
     top: 50%;
     width: 70%;
