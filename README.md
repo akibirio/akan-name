@@ -2,7 +2,7 @@
 - A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name..  
 
 ## Set up and Installation
-Click on this link to view [live page.](https://akibirio.github.io/Your-Akan-Name/)    
+Click on this link to view [live page.](https://akibirio.github.io/akan-name/)    
 Compatible with most browsers. Checked on chrome web browser.  
 - Clone the project  
 - Open with vscode
